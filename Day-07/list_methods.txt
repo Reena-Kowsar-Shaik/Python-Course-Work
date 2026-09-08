@@ -1,0 +1,36 @@
+list() methods:
+
+Insert methods:
+append():To insert one element
+insert(index,element):to insert at particular position
+extend():to add multiple elements
+
+remove methods:
+1)pop():removes the last element
+if we use index in pop(2) it wille remove that element
+
+2)remove(value):
+here if we don't know index we can use remove we give the element what we want to remove
+
+3)clear():deletes list
+
+
+max():return max element
+min():returns min element
+sorted():cretes another list with sorted elements
+revers():reverse the list permenantly
+sort():sort the list permenantly
+sort(reverse=True):sorts in reverse order
+sum():gives the sum of list
+copy():shallowcopy() and deepcopy()
+
+all:all([0,'',[],(),set(),{},False])
+False
+any([0,'',[],(),set(),{},False])
+False
+all([1,'',[],(),set(),{},False])
+False
+any([1,'',[],(),set(),{},False])
+True
+
+
