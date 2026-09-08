@@ -1,0 +1,187 @@
+arthimetic
+comparsion
+assignment
+relational
+membership
+identity
+bitwise
+#input formatting
+comma separation
+f string
+modulo 
+formatting
+
+#output formatting
+int,float,str,list,tuple,set,dict
+
+for string: input()
+ex : name=input()
+
+for int:int(input())
+ex : name=int(input())
+
+for float : float(input())
+ ex : price=float(input())
+
+for list: names=input("enter the names).split()
+for int in list:
+map(int,input())---here lazy loading happens maps object 
+list(map(innt,names))
+
+values=list(map(int,input().split()))  #list of int values
+
+values=list(map(float,input().split()))  #list of float values
+
+
+tuples:
+to convert list into tuple:
+names=tuple(int,input("entr the names"))
+
+tuple of int values:
+values=tuple(map(float,input().split())
+values=tuple(map(float.input().split())
+
+sets:
+names=set(input().split()
+
+names=set(map(int,input().split()))
+
+names=set(map(float,input().split()))
+
+
+int=int(input())
+float=float(input())
+str=input()
+list of str=input().split()
+list of int=list(map(int,input().split()))
+list of float=list(map(float,input().split()))
+tuple of str=input().split()
+tuple of int=tuple(map(int,input().split()))
+tuple  of float=tuple(map(float,input().split()))
+
+set of str=input().split()
+set of int=set(map(int,input().split()))
+set of float=set(map(float,input().split()))
+
+#multiple values from user
+email,password=input().split()
+a,b,c=list(map(input().split()))
+name,marks=input().split()
+
+by using eval function we can take ay datatype as input
+e=eval(input())
+ 
+
+
+OUTPUT FORMATTING METHODS
+Python supports multiple ways to format output.
+
+1. Using Commas in print()
+Simplest method.
+
+name = "Alice"
+age = 25
+score = 95.5
+print("Name:", name, "Age:", age, "Score:", score)
+Name: Alice Age: 25 Score: 95.5
+
+Advantages
+● Easy for beginners
+● Simple syntax
+Disadvantages
+● Less formatting control
+
+2. Using Modulo (%) Formatting
+Old C-style formatting method.
+
+Python
+
+Python
+Format Specifiers
+Specifier Datatype
+%s String
+%d Integer
+%f Float
+
+name = "Bob"
+age = 30
+score = 88.75
+print("Name: %s | Age: %d | Score: %.2f" % (name, age, score))
+Name: Bob | Age: 30 | Score: 88.75
+
+Advantages
+● Better formatting control
+● Supports decimal formatting
+
+Disadvantages
+● Old method
+● Less readable
+
+3. Using f-Strings
+Most modern and recommended method.
+
+name = "Charlie"
+age = 28
+score = 92.389
+print(f"Name: {name} | Age: {age} | Score: {score:.2f}")
+Name: Charlie | Age: 28 | Score: 92.39
+
+Python
+
+Python
+
+Python
+Advantages
+● Easy to read
+● Fast
+● Modern
+● Supports expressions directly
+
+Disadvantages
+● Works only in Python 3.6+
+
+4. Using str.format() Method
+
+name = "Diana"
+age = 22
+score = 89.456
+print("Name: {} | Age: {} | Score: {:.1f}".format(name, age,
+score))
+Name: Diana | Age: 22 | Score: 89.5
+
+Positional Formatting
+
+print("Name: {0} Age: {1}".format("Ravi", 25))
+Name: Ravi Age: 25
+
+Keyword Formatting
+
+print("Name: {name} Age: {age}".format(name="Ravi", age=25))
+Name: Ravi Age: 25
+
+Advantages
+
+Python
+
+Python
+● Flexible
+● Powerful formatting support
+
+Disadvantages
+● Longer syntax compared to f-strings
+
+NUMBER FORMATTING
+
+Comma Separator
+
+amount = 1000000
+print(f"{amount:,}")
+1,000,000
+
+Percentage Formatting
+
+value = 0.85
+print(f"{value:.0%}") #85%
+
+
+
