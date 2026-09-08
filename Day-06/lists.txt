@@ -1,0 +1,25 @@
+lists:
+collection of elements in square braces
+list operations:
+1)concatenation
+2)repetation
+3)indexing
+4)slicing
+5)memebership
+
+1)l1=[1,2,3,4]
+l2=[6,7,8]
+l3=l1+l2
+
+
+2)l2*3
+
+3)l[3]
+
+4)l[1:]
+l[::-1]
+
+5)in not in
+4 in l1
+4 not in l1
+6 not in l2
