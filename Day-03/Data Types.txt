@@ -1,0 +1,102 @@
+Data Types:
+A data Type defines:
+  What kind of value is stored
+  How memory is allocated
+  Weather the value can be modified or not
+
+Python automatically identifies the datatype when we assign a value
+types of datatypes:
+
+1)Numeric Types:
+ Numeric datatypes are used to store Numerical Values
+  Types:1)Int :Stores whole Numbers Without decimal values
+           age=23
+           id=1098765
+          Mutable or Immutable?
+            Immutable :Once a object is created,Python does not Modify that Object Internally.If the value changes,pyhton Creates a new object in memory
+        2)float: Stores decimal Values
+            price=10.23
+           it is Immutable
+        3)Complex:Stores Real and Imaginary Numbers
+            a=5+2j
+  Mutable or Mutable?
+  Immutable
+2.Sequence Types:
+   Stores in Specific Order
+  list:["a","b","c"]
+types:
+  1)str
+  2)list
+  3)tuple
+1)str-string type
+  collection of characters
+text="python"
+it is Immutable
+
+2)List :Stores Multiple values in ordered form
+items=["shoes ","watch" ,"bag"]
+ 
+it is ordered,indexed,allows duplicates,dynamic size
+n=[10,20,30]
+it is mutable
+values inside the list can be modified after creation
+why mutable?
+python allows modification of internal memory locations of list elements
+
+3)Tuple:
+Stores Ordered and fixed data
+it is ordered ,Indexed ,Allowed Duplicates ,Faster than Lists
+
+tuple is Immutable:because python protects tuple memory from modification after creation
+4)set:stores unique values
+no duplicate values
+unordered collection
+no indexing
+set:
+colors:{'red','blue','green'}
+it is mutable
+frozenset:immutable version of set
+tags=frozenset(["sale","trending"]
+
+
+mapping data types:
+dict-dictionary: The dictionary stores data in key-value pairs
+
+Student={"name" :"Rohit" ,"age":21 , "course":"python"}
+why is it called mapping:
+one value maps to another
+it is mutable
+student['city']='hyderabad'
+mutable
+
+5.Boolean type:
+  True
+  False
+it is immutable
+
+None Type: 
+tracking_id=None
+used when value not assigned yet
+empty state
+ it is immutable
+
+mutable:
+list
+set
+dict
+
+Immutable:
+int
+float
+str
+tuple
+frozenset
+bool
+
+
+
+
+
+
+         
+        
