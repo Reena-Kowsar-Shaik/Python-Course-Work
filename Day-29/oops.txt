@@ -1,0 +1,254 @@
+1)oops Depends on users
+2)class is lueprint which consists of attributes and methods
+3)object is instace of class 
+
+4)encapsulation:wrapping data and providing security
+               it has 3 attributes 1.private :inside the class only 2.public: inside,outside anywhere  3.protected:inside class inside child class
+
+5)Inheritance : acquiring properties of parent class to child classs
+6)polymorphism:one thing many forms
+7)Abstraction:
+
+
+1. OOPs – Object-Oriented Programming
+
+Definition:
+OOP is a programming approach where we organize a program using classes and objects.
+
+Scenario – Banking Application:
+Suppose we are creating a banking application. Instead of writing all the code together, we can create classes such as Customer, Account, and Transaction. Each object represents a real customer or account.
+
+Why we use it:
+It makes large programs organized, reusable, maintainable, and easier to modify.
+
+2. Class
+
+Definition:
+A class is a blueprint or template that contains attributes and methods.
+
+Scenario – LinkedIn:
+LinkedIn can have a Profile class.
+
+Attributes → name, email, skills, experience
+Methods → update_profile(), add_skill(), connect()
+
+Each LinkedIn user's profile can be created as an object of the Profile class.
+
+Why we use it:
+We can define the structure once and create multiple objects from
+
+3. Object
+
+Definition:
+An object is an instance of a class that represents a specific entity.
+
+Scenario – LinkedIn:
+If Profile is a class, your LinkedIn profile can be an object of that class.
+
+For example:
+
+profile1 = Profile("Reena", "Python", "AI/ML")
+
+Here, profile1 is an object.
+
+Why we use it:
+Objects allow us to work with the actual data and behavior defined by a class.
+
+
+4. Encapsulation – Instagram Example
+
+Definition:
+Encapsulation is the process of wrapping data and methods into a single unit and controlling access to the data.
+
+Scenario – Instagram:
+Consider your Instagram account. Your private information such as password, email, and account settings should not be directly accessible or modified by anyone.
+
+For example:
+
+You can change your password through Instagram's settings.
+You can change your profile through the Edit Profile option.
+You cannot directly access or modify Instagram's internal account data.
+
+Instagram provides specific methods/features to control how your data is accessed and modified.
+
+Why we use it:
+Encapsulation is used to protect data, prevent unauthorized access, and control how data is modified.
+
+Why we use it:
+To protect data and control how the data is accessed or modified.
+
+Access levels in Python:
+
+Public → accessible from anywhere
+Protected (_) → intended for the class and child classes
+Private (__) → intended to be accessed within the class
+
+5. Inheritance
+
+Definition:
+Inheritance is the process where a child class acquires the attributes and methods of a parent class.
+
+Scenario – LinkedIn:
+Suppose LinkedIn has a general User class containing:
+
+name
+email
+profile()
+connect()
+
+Now we create:
+
+PremiumUser(User)
+
+The PremiumUser automatically gets the common features of User and can also have additional features such as:
+
+InMail
+Premium badge
+Advanced search
+
+Why we use it:
+To reuse existing code and avoid writing the same code again.
+
+6. Polymorphism – YouTube Example
+
+Definition:
+Polymorphism means one thing can have many forms. In programming, the same method or operation can behave differently depending on the object.
+
+Scenario – YouTube:
+Consider the Play Video feature on YouTube.
+
+Without subscription (YouTube Free): When you play a video, you may see advertisements before or during the video.
+With subscription (YouTube Premium): When you play the same video, it plays without advertisements.
+
+The action is the same — playing a video, but the behavior is different depending on whether the user has a subscription or not.
+
+Why we use it:
+Polymorphism allows us to use the same operation with different behaviors, making the program more flexible and easier to maintain.
+
+Easy interview line:
+
+"YouTube is an example of polymorphism because the same play-video operation behaves differently for free users and premium users."
+
+7. Abstraction
+
+Definition:
+Abstraction means hiding complex implementation details and showing only the necessary features to the user.
+
+Scenario – PhonePe:
+When you send money through PhonePe, you simply:
+
+Select receiver → Enter amount → Click Pay
+
+You don't need to know:
+
+How UPI verifies the transaction
+How the bank communicates with the UPI system
+How the transaction is processed internally
+
+PhonePe hides all those complex details and gives you a simple payment interface.
+
+Why we use it:
+To reduce complexity and make the system easier for users to interact with
+
+
+8)attributes are two types
+1. Instance Attributes
+
+Definition:
+Instance attributes are attributes whose values are different for each object.
+these are called outside the class
+
+Scenario – Instagram:
+Each Instagram user has different username, followers, and bio.
+
+user1.username = "Reena"
+user2.username = "kowsar"
+
+Here, username is an instance attribute because each user has a different value.
+
+2. Class Attributes
+
+Definition:
+Class attributes are attributes whose values are common to all objects.
+
+Scenario – Instagram:
+All Instagram users belong to the same platform.
+
+class Instagram:
+    platform = "Instagram"
+
+Here, platform is a class attribute because it is common to all users.
+
+Easy Difference
+Instance attribute → Different for each object → username
+Class attribute → Common to all objects → platform
+
+9)methods:class methods,static ,instace:
+Definition:
+A method is a function defined inside a class that performs a specific action.
+
+There are 3 types of methods in Python:
+
+1. Instance Method
+
+Definition:
+An instance method works with object-specific data and takes self as the first parameter.
+
+Scenario – Instagram:
+A user can update their own profile.
+
+def update_profile(self):
+    print("Profile updated")
+
+Here, self refers to the particular Instagram user.
+
+2. Class Method
+
+Definition:
+A class method works with class-level data and takes cls as the first parameter.
+
+Scenario – Instagram:
+Suppose Instagram wants to change a common platform setting for all users.
+
+@classmethod
+def change_platform(cls):
+    cls.platform = "Instagram"
+
+Here, cls refers to the class.
+
+3. Static Method
+
+Definition:
+A static method does not depend on instance or class data. It is used for a general utility related to the class.
+
+Scenario – Instagram:
+Checking whether a username is valid:
+
+@staticmethod
+def check_username(name):
+    return len(name) >= 3
+
+It doesn't need self or cls.
+
+Easy Difference
+Instance method → Works with object data → self 
+Class method → Works with class data → cls    (we @classmethod decorator)
+Static method → Independent/general utility → no self or cls  (we use @staticmethod)
+
+with classname we can't access instance method
+  
+
+constructor
+
+encapsulation
+
+inherotance->5 types
+    1.single(a->b) 2.multiple (a,b->a) 3.multilevel(a->b->c) 4.herirachial (a->a,b)  5.hybrid(combination on any two inheritances)
+super method is used to aceess parent class to child class when both are same names
+
+polymorphism:one thing many forms
+1.method overloading:same method different parameters
+2.method overriding:same method same parameters but differenet class (Parenta class and child class)
+3.operator overloading:
+
+python doesnt support method overloading
