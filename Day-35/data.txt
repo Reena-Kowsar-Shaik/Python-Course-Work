@@ -1,0 +1,160 @@
+Data Analysis – Simple Notes
+What is Data Analysis?
+
+Data analysis is the process of collecting, cleaning, organizing, and studying data to get useful information and make better decisions.
+
+In simple words:
+
+Data Analysis means understanding data and finding useful information from it.
+
+Example
+
+Suppose a shop has sales data:
+
+Product	Sales
+Mobile	100
+Laptop	50
+Tablet	30
+
+After analyzing the data, we can find:
+
+Mobile has the highest sales.
+Tablet has the lowest sales.
+The shop should focus more on mobile sales.
+
+This is data analysis.
+
+Why do we need Data Analysis?
+
+Data analysis helps us to:
+
+Understand data
+Find useful information
+Find trends and patterns
+Identify problems
+Compare results
+Make better decisions
+Predict future results
+Steps in Data Analysis
+
+The main steps are:
+
+1. Collect Data
+
+Gather the required data.
+
+Example:
+
+Customer details
+Sales information
+Student marks
+2. Clean Data
+
+Remove or correct incorrect, duplicate, or missing data.
+
+Example:
+
+Reena   80
+Anil    90
+Anil    90  ← duplicate
+
+We can remove the duplicate record.
+
+3. Organize Data
+
+Arrange the data in a proper format, such as tables or rows and columns.
+
+4. Analyze Data
+
+Calculate and examine the data to find useful information.
+
+For example:
+
+Average
+Total
+Minimum
+Maximum
+Percentage
+5. Visualize Data
+
+Represent data using charts and graphs.
+
+Examples:
+
+Bar chart
+Pie chart
+Line chart
+Histogram
+6. Find Insights
+
+Understand what the results mean.
+
+Example:
+
+"Sales increased by 20% this month."
+
+7. Make Decisions
+
+Use the insights to make better decisions.
+
+Types of Data Analysis
+
+There are mainly four types:
+
+1. Descriptive Analysis
+
+What happened?
+
+Example:
+
+Sales were ₹50,000 last month.
+
+2. Diagnostic Analysis
+
+Why did it happen?
+
+Example:
+
+Sales decreased because fewer customers purchased the product.
+
+3. Predictive Analysis
+
+What might happen in the future?
+
+Example:
+
+Sales may increase next month.
+
+4. Prescriptive Analysis
+
+What should we do?
+
+Example:
+
+We should offer discounts to increase sales.
+
+Easy way to remember:
+Descriptive  → What happened?
+Diagnostic   → Why did it happen?
+Predictive   → What may happen?
+Prescriptive → What should we do?
+Tools Used for Data Analysis
+
+Common tools include:
+
+Excel
+SQL
+Python
+Pandas
+NumPy
+Matplotlib
+Power BI
+Tableau
+Python Data Analysis
+
+In Python, commonly used libraries are:
+
+NumPy       → Numerical calculations
+Pandas      → Data cleaning and analysis
+Matplotlib  → Data visualization
+Seaborn     → Data visualization
