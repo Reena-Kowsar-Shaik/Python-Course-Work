@@ -1,0 +1,42 @@
+setis heterogenous only immutable items are added
+
+set doesnt allow duplicates,heterogeneous
+
+
+operations:
+union(|):combining
+intersection(&):common elements
+difference(-)
+symmetric difference: removing common elements
+subset:<=
+superset:>=
+disjoint():nocommon element's
+memberships: in not in
+
+setmethods:
+max()
+min()
+sorted()
+sum()
+copy():shallow copy() anddeep copy()
+
+mutability:
+add(123): to add one element
+update():to add more elements
+delte:
+pop():to remove a element
+remove()"remove gives error if not found
+discard():handle the error doesn't give error if element is not present
+any()
+all():
+
+dict:
+collection of key value pairs enclosed between curly braces
+
+operations:
+memberships:
+d[key]
+d.get()
+updating()
+
+
