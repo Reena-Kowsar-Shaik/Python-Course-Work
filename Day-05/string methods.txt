@@ -1,0 +1,94 @@
+Methods:
+1)Built-in methods:
+len:used to find 
+
+ascii value: ord('p')
+             ord('0')  //gives standard number
+chr:
+chr(50) gives particular value in that number
+
+Min :gives minimum ascii character
+Max :gives maximum ascii character
+
+sorted : gives alphates in sorted order
+it gives output in list format
+
+upper:
+converts to upper
+
+lower:
+converts to lower
+
+capitalize:
+1st letter should be capital
+
+Swapcase():
+ upper->lower
+ lower->upper
+
+Casefold(): converts to lower
+
+2)Alignment functions 
+
+center():left side snd right isde charcaters
+ljust():left side string righ side character
+rjust():left side specialcharacter  and right side string
+zfill():pads the string with zeros on the left
+
+3)Search and find methods:
+
+find():gives 1st occurrence from left side
+if it does not have gives -1
+
+rfind(): from right side we get the first occurenceindex
+
+index:get the index of character
+
+rindex():index from right side
+
+count():ocuuring how many times
+
+
+diff between find and index is find has exceptional handling it throws -1 if it is not present
+
+index gives value error if it is not present
+
+4)Replace and Modify Methods:
+
+Replace(old,new):replace string valu withe new string
+maketrans():creates a translation table for translate()
+then fafter maketrans() we can translates 
+
+
+5)splitting and joining:
+
+split():based on seperators
+rsplit():split from rights side
+join():joins elements with a separator
+partition(left,middle,right):splits into a 3-part tuple at first step
+rpartition(sep):splits into a 3-part tuple at last sep
+
+
+6)Whitespace & Trimming Methods
+ strip():both left and right
+lstrip():only left
+rstrip()"only right
+
+7. Encoding & Decoding Methods
+encode: converts the string to bytes
+decode:converts bytes back to string
+
+8)
+
+startswith:checks its start with string or not
+endswith:checks it is endswith string or not
+islower():to check it is in lower
+isupper():to check it is in upper or not
+isaplha():
+isalnum():
+isspace():return true if all characters are whitespace
+istitle():returns true if the string is in titlecase
+isidentifier():check if the string is a valid 
+isdecimal():only 0-9'
+isdigit():
+isnums():

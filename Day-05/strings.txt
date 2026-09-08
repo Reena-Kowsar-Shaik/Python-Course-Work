@@ -1,0 +1,13 @@
+strings:
+
+collection of characters
+properties of string:it is immutable
+                     it is ordered
+                     
+
+string operations:
+1)concatenation(+):adding strings
+2)repetation:repeating the string 
+3)indexing: accesing a specific character 
+4)slicing(start,end+1,step)->s[0:len:1] #default:accesing a group of characters
+5)membership (in,not in):to check it is present or not present
