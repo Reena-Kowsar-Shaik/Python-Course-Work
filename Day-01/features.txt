@@ -1,0 +1,5 @@
+independent
+dynamic
+interpreted
+simple syntax
+easily to understnad
