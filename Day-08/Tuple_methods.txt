@@ -1,0 +1,18 @@
+Tuple:
+it is ordered,immutable,allows duplicates,heterogeneous,fixed
+
+
+packing and unpacking
+
+
+built-in methods:
+len()
+max()
+min()
+sorted()
+sum()
+index()
+all()
+any()
+
+nested tuples():
