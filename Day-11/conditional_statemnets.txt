@@ -1,0 +1,31 @@
+1.Simple if:
+   only single action
+ syntax:
+     if cond:
+        #stmts
+
+2.if-else:two conditions
+  if cond:
+     #stmt
+  else:
+     #stmt
+
+3.elif ladder: more than 2
+ if:
+
+ elif:
+
+ elif:
+
+
+else:(optional)
+
+4)nested if:nested conditions
+  if :
+   if :
+      if:
+
+
+
+
+   
